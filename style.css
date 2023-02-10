@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    font-family: 'Segoe UI', sans-serif;
+    justify-content: center;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+}
+
+.controls, button {
+    display: flex;
+    margin-top: 4px;
+    text-align: center;
+    justify-content: center;
+}
+
+#canvas {
+    border: 4px solid;
+    margin-top: 10px;
+}
